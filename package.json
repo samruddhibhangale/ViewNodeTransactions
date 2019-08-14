@@ -1,0 +1,26 @@
+{
+  "name": "nodeTransactions",
+  "version": "1.0.0",
+  "description": "task_getTransactions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samruddhi",
+  "license": "ISC",
+  "dependencies": {
+    "abi-decoder": "1.2.0",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "ethereumjs-tx": "1.3.7",
+    "ethereumjs-wallet": "0.6.2",
+    "express": "^4.15.2",
+    "express-bearer-token": "^2.1.0",
+    "express-jwt": "^5.1.0",
+    "express-session": "^1.15.2",
+    "mysql": "^2.17.1",
+    "solidity": "^0.0.1",
+    "web3": "1.2.0",
+    "knex": "0.19.1"
+  }
+}
