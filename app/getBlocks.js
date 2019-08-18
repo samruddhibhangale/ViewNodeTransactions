@@ -43,7 +43,6 @@ con.query(sql, [blockno , frm, toaddre, txnhash, st], function (err, data) {
     }
 });
 });
-});
 }       
 });
 }
