@@ -17,7 +17,7 @@ var con = mysql.createConnection({
 function getBlock(){
     web3js.eth.getBlockNumber().then(function(res){
       console.log(res);
-      for (var i=res; i > res-2; i--) {
+      for (var i=res; i > res-10000; i--) {
       web3js.eth.getBlock(i).then(function(res){
         //console.log( res.transactions);
         for(var j=0; j< res.transactions.length ;j++){
