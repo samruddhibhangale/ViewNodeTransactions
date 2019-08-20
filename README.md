@@ -31,3 +31,8 @@ OUTPUT -
         }
     ]
 }
+
+
+#####Step to import DB
+Run the following command to import db
+--- mysql -u root -p block_transactions < dbexport.sql 
