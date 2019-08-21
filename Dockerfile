@@ -1,6 +1,6 @@
 FROM alpine:latest
-RUN apt-get install -y mysql-server
 RUN apk add --no-cache nodejs npm
+RUN apt-get install -y mysql-server
 RUN mysql -u root -p block_transactions < dbexport.sql 
 WORKDIR /home/Ethereum/NodeTransactions
 COPY package*.json ./
