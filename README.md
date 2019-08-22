@@ -35,7 +35,7 @@ OUTPUT -
 
 #####Step to import DB
 Run the following command to import db
---- mysql -u root -p block_transactions < dbexport.sql 
+--- mysql -u root -p block_transactions < block_transactions.sql 
 
 #####################Building docker image ###################
     docker build -t <imagename:version> .
